@@ -62,9 +62,9 @@ I tried several task management plugins. They were either too complex, too opini
 **Simple Tasks** is a stateless, zero-database task plugin. Tasks are just regular markdown checkboxes with one addition, categories using Obsidian's highlight syntax:
 
 ```markdown
-- [ ] ==TODO== Review the pricing proposal
-- [ ] ==DECISION== Approve the new terminal supplier
-- [ ] ==IDEA== Explore OCPP protocol for EV charging
+- [ ] ==TODO== Review the acquirer integration spec
+- [ ] ==DECISION== Approve the payment terminal release scope
+- [ ] ==IDEA== Explore tap-to-pay for unattended terminals
 ```
 
 That's it. No proprietary format, no sidecar files, no database. If you open the file in any text editor, you can still read and edit your tasks.
