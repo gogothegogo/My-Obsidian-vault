@@ -51,7 +51,7 @@ The processing happens later, usually at the end of the day, or sometimes I let 
 
 Random thoughts and tasks that I wrote inline between the headings? They stay right where they are. They don't need their own file. They're small, they're contextual, and the task plugin picks them up anyway.
 
-That's why the daily note works as my inbox, scratchpad, and launchpad, all in one file. During the day I never think about *where* something goes. It all goes here. Structure comes later, when I process the daily note and push extracts to the right location outside of `00_CAPTURE/`: meeting notes and the daily note itself go into `03_ARCHIVE`, persistent knowledge lands in `01_AREAS`, project artifacts and deliverables go into `00_PROJECTS`, and new reference links or documents end up in `02_RESOURCES`.
+That's why the daily note works as my inbox, scratchpad, and launchpad, all in one file. During the day I never think about *where* something goes. It all goes here. Structure comes later, when I process the daily note and push extracts to the right location outside of `00_CAPTURE/`: meeting notes and the daily note itself move into `02_RESOURCES` for the current year and eventually settle in `03_ARCHIVE`, persistent knowledge lands in `01_AREAS`, project artifacts and deliverables go into `00_PROJECTS`, and new reference links or documents end up in `02_RESOURCES`.
 
 This capture-then-process rhythm is the heartbeat of the vault. `00_CAPTURE/` is always a little messy, and that's fine, it's supposed to be. The knowledge base in `01_KNOWLEDGE/` stays clean because nothing lands there unprocessed.
 
@@ -85,6 +85,18 @@ A typical day looks like this:
 4. Repeat.
 
 Over weeks and months, `01_KNOWLEDGE/` grows into a proper knowledge base, interconnected, searchable, and genuinely useful. Projects fill up with roadmaps and deliverables, areas accumulate domain expertise, resources collect the documentation and references I keep coming back to, and the archive becomes a detailed log of daily notes, finished projects, and everything that's run its course.
+
+## The new layer: an AI co-pilot that lives in the vault
+
+The biggest change to my system since I first set it up isn't a folder or a plugin. It's that an AI assistant now works *inside* the vault with me, every day.
+
+The anchor is a single file at the vault root called `CLAUDE.md`. Think of it as a README the assistant actually reads. It tells the assistant how my vault is laid out, where daily notes live, what my templates look like, how I like notes tagged, and what voice to write in. Because the rules live in the vault as plain markdown, they travel with it and I can edit them like any other note.
+
+On top of that sit a handful of small, single-purpose helpers. One pulls my morning inputs together into a daily brief. One turns raw meeting captures into filed notes with the links already wired up. One searches every task in the vault by category. They each do one thing, and they all respect the same capture-then-process rhythm the rest of the system runs on.
+
+Two conventions keep it honest. Every note the assistant creates carries an `#ai_generated` tag in its frontmatter, so I always know what was drafted by a machine and can adopt it on my own terms. And nothing lands in `01_KNOWLEDGE/` unprocessed, the AI follows the same discipline I do.
+
+The point isn't automation for its own sake. It's that the vault is now structured enough, and linked enough, that an assistant can actually reason over it. PARA discipline and dense wikilinking turned out to be exactly the substrate an AI needs to be useful.
 
 ## The takeaway
 
