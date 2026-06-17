@@ -104,6 +104,6 @@ I work in this vault with AI every single day, and the combination has made me r
 
 ## The takeaway
 
-My vault isn't perfect. It's not supposed to be. It's a living system that evolved through daily use, not through upfront design. The combination of PARA for structure, Zettelkasten-style linking for connections, daily notes as the entry point, and a simple homegrown task plugin for execution, that's what works for me.
+My vault isn't perfect. It's not supposed to be. It's a living system that evolved through daily use, not through upfront design. The combination of PARA for structure, Zettelkasten-style linking for connections, daily notes as the entry point, and a simple homegrown task plugin for execution, that's what works for me. And while the system on its own is already great, working with AI on top of it turned it into a genuine super power.
 
 The best productivity system is the one you actually use. Mine just happens to live in a folder full of markdown files.
