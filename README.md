@@ -86,17 +86,21 @@ A typical day looks like this:
 
 Over weeks and months, `01_KNOWLEDGE/` grows into a proper knowledge base, interconnected, searchable, and genuinely useful. Projects fill up with roadmaps and deliverables, areas accumulate domain expertise, resources collect the documentation and references I keep coming back to, and the archive becomes a detailed log of daily notes, finished projects, and everything that's run its course.
 
-## The new layer: an AI co-pilot that lives in the vault
+## Working with AI, from day one
 
-The biggest change to my system since I first set it up isn't a folder or a plugin. It's that an AI assistant now works *inside* the vault with me, every day.
+I didn't bolt AI onto this vault later. It was part of how I worked from the start, the vault and the assistant grew up together.
+
+The tool I reach for day to day is Claude Code, but none of this is locked to it. The vault is just markdown and plain-text rules, so it works just as well with any other AI harness, including open-source ones like OpenCode, Hermes Agent, and others. Nothing here depends on a single vendor.
 
 The anchor is a single file at the vault root called `CLAUDE.md`. Think of it as a README the assistant actually reads. It tells the assistant how my vault is laid out, where daily notes live, what my templates look like, how I like notes tagged, and what voice to write in. Because the rules live in the vault as plain markdown, they travel with it and I can edit them like any other note.
+
+Templates are where this really pays off. I build a lot of them, and I build them together with the assistant. Once a template exists, I can turn a simple, human-like chat into a polished document in seconds. I describe what I need in plain language, the assistant fills the template, and a clean draft comes out the other end. What used to be an hour of formatting is now a short conversation.
 
 On top of that sit a handful of small, single-purpose helpers. One pulls my morning inputs together into a daily brief. One turns raw meeting captures into filed notes with the links already wired up. One searches every task in the vault by category. They each do one thing, and they all respect the same capture-then-process rhythm the rest of the system runs on.
 
 Two conventions keep it honest. Every note the assistant creates carries an `#ai_generated` tag in its frontmatter, so I always know what was drafted by a machine and can adopt it on my own terms. And nothing lands in `01_KNOWLEDGE/` unprocessed, the AI follows the same discipline I do.
 
-The point isn't automation for its own sake. It's that the vault is now structured enough, and linked enough, that an assistant can actually reason over it. PARA discipline and dense wikilinking turned out to be exactly the substrate an AI needs to be useful.
+I work in this vault with AI every single day, and the combination has made me roughly four times as productive as I was before I built the system. The point isn't automation for its own sake. It's that the vault is structured enough, and linked enough, that an assistant can actually reason over it. PARA discipline and dense wikilinking turned out to be exactly the substrate an AI needs to be useful.
 
 ## The takeaway
 
